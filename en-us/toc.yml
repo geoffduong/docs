@@ -2,8 +2,6 @@
   href: index.md
 - name: Getting Started
   href: getting-started.md
-- name: Whitepaper
-  href: white-paper.md
 - name: NEO Node
   href: node/introduction.md
   items:
@@ -47,14 +45,21 @@
     - name: Network Protocol
       href: node/network-protocol.md
     - name: Consensus
-      href: node/consensus.md
+      href: node/whitepaper.md
+      items:
+      - name: Consensus Whitepaper
+        href: node/whitepaper.md
+      - name: Consensus Diagram
+        href: node/consensus.md
 - name: Smart Contract
   href: sc/introduction.md
   items:
     - name: Introduction
       href: sc/introduction.md
-    - name: Getting Started
-      href: sc/getting-started.md
+    - name: Getting Started (C#)
+      href: sc/getting-started-csharp.md
+    - name: Getting Started (Java)
+      href: sc/getting-started-java.md
     - name: Tutorial
       href: sc/tutorial.md
       items:
@@ -74,6 +79,8 @@
         href: sc/tutorial/Lock2.md
       - name: Contract Call
         href: sc/tutorial/call.md
+      - name: Deploying and Invoking
+        href: sc/tutorial/deploy-invoke.md      
     - name: Test
       href: sc/test.md
     - name: Whitepaper
@@ -108,8 +115,8 @@
               href: sc/fw/dotnet/neo/Header.md
             - name: Storage
               href: sc/fw/dotnet/neo/Storage.md
-            - name: StorageContex
-              href: sc/fw/dotnet/neo/StorageContex.md
+            - name: StorageContext
+              href: sc/fw/dotnet/neo/StorageContext.md
             - name: Transaction
               href: sc/fw/dotnet/neo/Transaction.md
             - name: TransactionAttribute
@@ -123,5 +130,7 @@
             items:
             - name: ExecutionEngine
               href: sc/fw/dotnet/System/ExecutionEngine.md
+    - name: System Fees
+      href: sc/systemfees.md
 - name: Contributors
   href: contributors.md
